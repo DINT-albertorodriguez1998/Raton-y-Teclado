@@ -1,0 +1,73 @@
+﻿<Window x:Class="Raton_y_Teclado.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Raton_y_Teclado"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MouseLeftButtonDown="Window_MouseLeftButtonDown" MouseRightButtonDown="Window_MouseRightButtonDown" MouseLeftButtonUp="Window_MouseLeftButtonUp" MouseRightButtonUp="Window_MouseRightButtonUp">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="123,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="67">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.003"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="TextBlock"/><Run Text=" 1"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="470,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="67" Text="Foco">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.003"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="470,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="67" Text="Ratón sobre">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.003"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform></TextBlock>
+        <TextBlock x:Name="BotonesTextBlock" HorizontalAlignment="Left" Margin="462,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="48" Height="16">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.003"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Botones"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="120,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="67">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.003"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="TextBlock"/><Run Text=" "/><Run Text="2"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="123,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="67">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.003"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="TextBlock"/><Run Text=" "/><Run Text="3"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="122,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus" />
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="122,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="122,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="471,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="RatonTextBox" HorizontalAlignment="Left" Height="23" Margin="471,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="IzquierdaBotonesTextBox" HorizontalAlignment="Left" Height="23" Margin="513,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30"/>
+        <TextBox x:Name="DerechaBotonesTextBox" HorizontalAlignment="Left" Height="23" Margin="561,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" RenderTransformOrigin="0.6,0.565"/>
+
+    </Grid>
+</Window>
