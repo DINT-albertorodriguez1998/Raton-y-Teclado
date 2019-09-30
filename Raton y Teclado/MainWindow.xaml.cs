@@ -54,11 +54,26 @@ namespace Raton_y_Teclado
         private void TextBox_MouseLeave(object sender, MouseEventArgs e)
         {
             RatonTextBox.Text = "";
+            
         }
 
         private void TextBox_GotFocus(object sender, RoutedEventArgs e)
         {
+            FocoTextBox.Text = ((TextBox)sender).Name;
+        }
 
+
+        private void TextBox_2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.Key == Key.F1)
+            {
+                TextBox_2.Text = "Ayuda";
+            }
+        }
+
+        private void TextBox_1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox_1.Text = TextBox_1.Text.ToString().ToUpper();
         }
     }
 }

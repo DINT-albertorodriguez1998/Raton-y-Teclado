@@ -61,13 +61,13 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </TextBlock.RenderTransform><Run Text="TextBlock"/><Run Text=" "/><Run Text="3"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="122,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus" />
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="122,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="122,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="471,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="RatonTextBox" HorizontalAlignment="Left" Height="23" Margin="471,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="IzquierdaBotonesTextBox" HorizontalAlignment="Left" Height="23" Margin="513,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30"/>
-        <TextBox x:Name="DerechaBotonesTextBox" HorizontalAlignment="Left" Height="23" Margin="561,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="30" RenderTransformOrigin="0.6,0.565"/>
+        <TextBox x:Name="TextBox_3" HorizontalAlignment="Left" Height="23" Margin="122,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus" />
+        <TextBox x:Name="TextBox_2" HorizontalAlignment="Left" Height="23" Margin="122,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus" KeyDown="TextBox_2_KeyDown"/>
+        <TextBox x:Name="TextBox_1" HorizontalAlignment="Left" Height="23" Margin="122,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus" TextChanged="TextBox_1_TextChanged"/>
+        <TextBox x:Name="FocoTextBox" HorizontalAlignment="Left" Height="23" Margin="471,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True" IsUndoEnabled="True"/>
+        <TextBox x:Name="RatonTextBox" HorizontalAlignment="Left" Height="23" Margin="471,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True" IsUndoEnabled="True"/>
+        <TextBox x:Name="IzquierdaBotonesTextBox" HorizontalAlignment="Left" Height="23" Margin="518,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="25" IsReadOnly="True" IsUndoEnabled="True"/>
+        <TextBox x:Name="DerechaBotonesTextBox" HorizontalAlignment="Left" Height="23" Margin="557,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="25" RenderTransformOrigin="-0.567,1.913" IsReadOnly="True" IsUndoEnabled="True"/>
 
     </Grid>
 </Window>
