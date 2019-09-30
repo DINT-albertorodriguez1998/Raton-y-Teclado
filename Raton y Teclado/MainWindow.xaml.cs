@@ -74,6 +74,7 @@ namespace Raton_y_Teclado
         private void TextBox_1_TextChanged(object sender, TextChangedEventArgs e)
         {
             TextBox_1.Text = TextBox_1.Text.ToString().ToUpper();
+
         }
     }
 }
