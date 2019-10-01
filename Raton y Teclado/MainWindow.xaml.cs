@@ -71,10 +71,9 @@ namespace Raton_y_Teclado
             }
         }
 
-        private void TextBox_1_TextChanged(object sender, TextChangedEventArgs e)
+        private void TextBox_LostFocus(object sender, RoutedEventArgs e)
         {
-            TextBox_1.Text = TextBox_1.Text.ToString().ToUpper();
-
+            FocoTextBox.Text = "";
         }
     }
 }

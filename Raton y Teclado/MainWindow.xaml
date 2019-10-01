@@ -61,9 +61,9 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </TextBlock.RenderTransform><Run Text="TextBlock"/><Run Text=" "/><Run Text="3"/></TextBlock>
-        <TextBox x:Name="TextBox_3" HorizontalAlignment="Left" Height="23" Margin="122,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus" />
-        <TextBox x:Name="TextBox_2" HorizontalAlignment="Left" Height="23" Margin="122,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus" KeyDown="TextBox_2_KeyDown"/>
-        <TextBox x:Name="TextBox_1" HorizontalAlignment="Left" Height="23" Margin="122,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus" TextChanged="TextBox_1_TextChanged"/>
+        <TextBox x:Name="TextBox_3" HorizontalAlignment="Left" Height="23" Margin="122,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" />
+        <TextBox x:Name="TextBox_2" HorizontalAlignment="Left" Height="23" Margin="122,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus" KeyDown="TextBox_2_KeyDown" LostFocus="TextBox_LostFocus"/>
+        <TextBox x:Name="TextBox_1" HorizontalAlignment="Left" Height="23" Margin="122,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" MouseEnter="TextBox_MouseEnter" MouseLeave="TextBox_MouseLeave" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" CharacterCasing="Upper"/>
         <TextBox x:Name="FocoTextBox" HorizontalAlignment="Left" Height="23" Margin="471,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True" IsUndoEnabled="True"/>
         <TextBox x:Name="RatonTextBox" HorizontalAlignment="Left" Height="23" Margin="471,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True" IsUndoEnabled="True"/>
         <TextBox x:Name="IzquierdaBotonesTextBox" HorizontalAlignment="Left" Height="23" Margin="518,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="25" IsReadOnly="True" IsUndoEnabled="True"/>
