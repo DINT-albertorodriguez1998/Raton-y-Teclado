@@ -75,5 +75,19 @@ namespace Raton_y_Teclado
         {
             FocoTextBox.Text = "";
         }
+
+        private void TextBox_3_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.Key)
+            {
+                case Key.A:
+                case Key.E:
+                case Key.I:
+                case Key.O:
+                case Key.U:
+                    e.Handled = true;
+                    break;
+            }
+        }
     }
 }
